@@ -1,0 +1,11 @@
+---
+title: "About this site"
+description: |
+  Here should be some additional details about the website. But there is nothing here. 
+  [Distill](https://rstudio.github.io/distill/)
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

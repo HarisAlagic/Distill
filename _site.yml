@@ -1,0 +1,39 @@
+name: "Distill"
+title: "My Website"
+description: |
+  My Website
+output_dir: "_site"
+theme: theme.css
+navbar:
+  search: true
+  logo:
+    image: images/logo.png
+    href: https://www.rstudio.com
+
+  right:
+    - text: "Home"
+      href: index.html
+
+    - text: "Data analysis"
+      menu:
+        - text: "Different visualizations"
+
+        - text: "---"
+
+        - text: "Temperature"
+          href: data_analysis_temperature.html
+
+        - text: "Climate"
+          href: data_analysis_climate.html
+
+        - text: "Population"
+          href: data_analysis_population.html
+
+    #- icon: fa-anchor
+
+    - text: "About"
+      href: about.html
+
+output: distill::distill_article
+
+

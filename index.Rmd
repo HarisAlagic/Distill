@@ -1,0 +1,23 @@
+---
+title: "My Test Website for Data Visualization"
+description: |
+   Here you will find different visualizations of random stuff! 
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+
+### Here is an example. You can find the other visualizations over the "Data analysis" tab.
+
+```{r}
+library(tidyverse)
+mtcars %>% ggplot() + aes(wt, mpg) + geom_point() + labs(title = "There is an inverse relationship between weight and miles per gallon: 
+The heavier the car the lesser the milage", subtitle = "The relationship between milage and weight", x = "Weight", y = "Miles per Gallon") 
+```
