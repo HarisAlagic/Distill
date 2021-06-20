@@ -1,0 +1,42 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Here should be some additional details about the website. But there is nothing here. \n[Distill](https://rstudio.github.io/distill/)",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T01:35:36+02:00"
+    },
+    {
+      "path": "data_analysis_climate.html",
+      "title": "Visualization - Climate",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T01:35:38+02:00"
+    },
+    {
+      "path": "data_analysis_population.html",
+      "title": "Visualization - Population",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T01:35:54+02:00"
+    },
+    {
+      "path": "data_analysis_temperature.html",
+      "title": "Visualization - Temperature",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T01:35:54+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Test Website for Data Visualization",
+      "description": "Here you will find different visualizations of random stuff! \n",
+      "author": [],
+      "contents": "\r\nHere is an example. You can find the other visualizations over the “Data analysis” tab.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T01:35:55+02:00"
+    }
+  ],
+  "collections": []
+}
